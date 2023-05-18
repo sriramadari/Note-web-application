@@ -43,6 +43,11 @@ footer p {
   width: 240px;
   margin: 16px;
   float: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.note:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .note h1 {
   font-size: 1.1em;
